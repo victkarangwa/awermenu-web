@@ -1,0 +1,32 @@
+@import "../../assets/styles/colors.scss";
+
+.custom-btn {
+  background-color: $primary-color !important;
+  border-color: $primary-color !important;
+  color: $light-color !important;
+  width: 100%;
+}
+
+.btn-link {
+  background-color: $quaternary-color !important;
+  border-color: $quaternary-color !important;
+  color: $primary-color !important;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn-link:hover {
+  background-color: $quaternary-color !important;
+  border-color: $quaternary-color !important;
+  color: $primary-color !important;
+  width: 100%;
+}
+
+
+.custom-btn:hover {
+  background-color: $hover-color !important;
+}
+
+.curved{
+    border-radius: 50px !important;
+}

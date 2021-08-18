@@ -1,0 +1,16 @@
+.nav-sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    .nav-link__item{
+        padding: 20px;
+        a{
+            color: #757B8E;
+            font-size: 18px;
+           vertical-align: -webkit-baseline-middle;
+        }
+    }
+
+}
