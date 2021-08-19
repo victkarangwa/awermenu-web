@@ -1,13 +1,20 @@
 import React from "react";
 import "./style.scss";
 import { Link } from "react-router-dom";
-import Button from "components/Button"
+import Button from "components/Button";
+import Logo from "assets/images/logoIcon.png";
 
 const MainHeader = () => {
   return (
     <div className="nav-sections">
-      <div>Logo here</div>
-      <div className="d-flex flex-row justify-content-around px-5">
+      <div className="logo-section">
+        <img src={Logo} className="logo" alt="logo" />
+        <div className="logo-txt">
+          <label className="logo-name-1">Awer</label>
+          <label className="logo-name-2">Menu</label>
+        </div>
+      </div>
+      <div className="d-flex flex-row justify-content-around">
         <span className="nav-link__item">
           <Link to="/">Home</Link>
         </span>
@@ -21,10 +28,10 @@ const MainHeader = () => {
           {/* <Link to="/contact">Contact</Link> */}
         </span>
         <span className="nav-link__item">
-          <Link  to="/contact">Login</Link>
+          <Link to="/contact">Login</Link>
         </span>
         <span className="nav-link__item">
-          <Button link >Create Account</Button>
+          <Button link>Create Account</Button>
           {/* <Link to="/contact">Create Account</Link> */}
         </span>
       </div>

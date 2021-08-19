@@ -1,0 +1,16 @@
+@import "../../assets/styles/colors.scss";
+
+.m-body {
+  background-color: $secondary-color;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.m-text {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding: 30px;
+}
