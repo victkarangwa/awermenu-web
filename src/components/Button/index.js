@@ -12,6 +12,7 @@ const Btn = ({
   htmlType,
   disabled,
   link,
+  icon,
 }) => {
   return (
     <Button
@@ -24,6 +25,7 @@ const Btn = ({
       loading={loading}
       htmlType={htmlType}
       disabled={disabled}
+      icon={icon}
     >
       {children}
     </Button>

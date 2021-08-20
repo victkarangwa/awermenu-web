@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import { Link } from "react-router-dom";
+import { TwitterOutlined } from '@ant-design/icons';
 import Button from "components/Button";
 import Logo from "assets/images/logoIcon.png";
 
@@ -16,16 +16,7 @@ const MainHeader = () => {
       </div>
       <div className="d-flex flex-row justify-content-around">
         <span className="nav-link__item">
-          <Link to="/">Home</Link>
-        </span>
-
-        <span className="nav-link__item">
-          <Link to="/contact">Contact</Link>
-        </span>
-
-        <span className="nav-link__item">
-          <Button link>Get Early Access</Button>
-          {/* <Link to="/contact">Create Account</Link> */}
+          <Button onClick={()=>window.location.replace("https://twitter.com/victkarangwa")} icon={<TwitterOutlined/>} link>Follow the journey</Button>
         </span>
       </div>
     </div>

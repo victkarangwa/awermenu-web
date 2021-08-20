@@ -8,11 +8,21 @@
 }
 
 .m-text {
-  margin-top: 50px;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   letter-spacing: 5px;
   padding: 30px;
+}
+
+.services{
+  margin-top: 50px;
+  padding-left: 10px !important;
+  letter-spacing: normal !important;
+  font-weight: normal !important;
+
+  .service-item{
+    font-size: 20px !important;
+  }
 }
 
 .error-text{

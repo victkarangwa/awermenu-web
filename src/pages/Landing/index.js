@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
+import { Timeline } from "antd";
 import FoodIllus from "assets/images/food-illus.png";
 import MainHeader from "components/MainHeader";
 import "./style.scss";
@@ -44,8 +45,24 @@ const LandingPage = () => {
           <div className="m-text">
             <label className="highlight">Find</label> your favorite restaurent{" "}
             <label className="highlight"> menu</label> anytime, anywhere.
-            <div className="my-5">
-              {error ? <span className="text-warning error-text">{error}</span>: null}
+            <div className="services">
+              <Timeline >
+                <Timeline.Item className="service-item" color="#FE5734">
+                  Find nearby/favorite restaurants
+                </Timeline.Item>
+                <Timeline.Item className="service-item" color="#FE5734">
+                  Browse through their menus
+                </Timeline.Item>
+                <Timeline.Item className="service-item" color="#FE5734">
+                  Search for affordable menu options
+                </Timeline.Item>
+                <Timeline.Item className="service-item" color="#FE5734">Leave them feedback</Timeline.Item>
+              </Timeline>
+            </div>
+            <div className="my-2">
+              {error ? (
+                <span className="text-warning error-text">{error}</span>
+              ) : null}
               <SearchInput
                 onSearch={handleEmail}
                 placeholder="Enter your email"
@@ -64,6 +81,8 @@ const LandingPage = () => {
             alt="food illustration"
           />
         </div>
+
+        <div></div>
       </div>
     </div>
   );
