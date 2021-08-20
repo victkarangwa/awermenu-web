@@ -5,6 +5,9 @@
   width: 95%;
   margin: 0 auto;
   border-radius: 10px;
+  @media screen and (max-width: 768px) {
+    height: 90vh;
+  }
 }
 
 .m-text {
@@ -12,6 +15,13 @@
   font-weight: bold;
   letter-spacing: 5px;
   padding: 30px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+    padding: 10px;
+    letter-spacing: 3px;
+  }
+  
 }
 
 .services{
@@ -31,4 +41,8 @@
   letter-spacing: normal !important;
   font-weight: normal !important;
 }
-
+.illisImg{
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}

@@ -37,7 +37,7 @@ const LandingPage = () => {
 
   return (
     <div>
-      <Helmet title="Home" />
+      <Helmet title="coming soon" />
       <MainHeader />
 
       <div className="m-body">
@@ -79,6 +79,7 @@ const LandingPage = () => {
             height="500px"
             src={FoodIllus}
             alt="food illustration"
+            className="illisImg"
           />
         </div>
 
