@@ -1,0 +1,4 @@
+export const LOADING = 'LOADING';
+export const SUBSCRIBE = 'SUBSCRIBE';
+export const SUBSCRIBE_WITH_MODAL = 'SUBSCRIBE_WITH_MODAL';
+export const LOADING_MODAL = 'LOADING_MODAL';

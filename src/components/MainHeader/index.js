@@ -18,20 +18,13 @@ const MainHeader = () => {
         <span className="nav-link__item">
           <Link to="/">Home</Link>
         </span>
-        <span className="nav-link__item">
-          <Link to="/about">About</Link>
-        </span>
+
         <span className="nav-link__item">
           <Link to="/contact">Contact</Link>
         </span>
+
         <span className="nav-link__item">
-          {/* <Link to="/contact">Contact</Link> */}
-        </span>
-        <span className="nav-link__item">
-          <Link to="/contact">Login</Link>
-        </span>
-        <span className="nav-link__item">
-          <Button link>Create Account</Button>
+          <Button link>Get Early Access</Button>
           {/* <Link to="/contact">Create Account</Link> */}
         </span>
       </div>
